@@ -18,4 +18,7 @@ public class Book { //create class book
     public String getAuthor() { // getter for attribute author
         return author;
     }
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
 } // end class Book
